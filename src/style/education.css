@@ -1,0 +1,36 @@
+h5 {
+  font-size: 1rem;
+  padding: 0 0 0 2rem;
+}
+
+.course {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+}
+.courseDot {
+  display: inline-block;
+  background: var(--CVsecondary);
+  height: 0.75rem !important;
+  width: 0.5rem !important;
+  margin-right: 0.5rem;
+}
+.courseTitle a {
+  text-decoration: none;
+  color: var(--CVprimaryAlt);
+  cursor: pointer;
+}
+.courseTitle a:hover {
+  color: var(--CVsecondary);
+}
+.inProgress {
+  display: grid;
+  grid-template-columns: auto auto !important;
+}
+
+@media only screen and (min-width: 801px) {
+  .educPage {
+    grid-template-areas: "." "." "." "formContainer" !important;
+  }
+}

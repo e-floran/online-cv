@@ -1,0 +1,92 @@
+header {
+  width: 100%;
+  height: 6.4rem;
+  margin-bottom: 1rem;
+  color: var(--CVprimary);
+  background-color: var(--whitish);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "headerTitle headerTitle" "headerMenu headerSubTitle";
+  grid-gap: 0;
+}
+
+.headerTitle,
+.headerMenu {
+  margin: 0;
+  padding: 0;
+}
+.headerTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0.5rem 0 0.2rem 0;
+  grid-area: headerTitle;
+}
+.headerSubTitle {
+  width: 100%;
+  text-align: right;
+  font-size: 1rem;
+  padding: 0.5rem 1rem 0.5rem 0;
+  grid-area: headerSubTitle;
+}
+.headerMenu {
+  width: 100%;
+  grid-area: headerMenu;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+  z-index: 10;
+}
+
+.headerList:hover,
+.headerButton:hover,
+.headerList li:hover {
+  cursor: pointer;
+}
+
+.headerList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+}
+
+.headerButton {
+  width: 50%;
+  padding: 0.47rem 1rem;
+  background-color: var(--CVprimaryAlt);
+  font-size: 1.25rem;
+  color: var(--whitish);
+  border: none;
+}
+
+.headerList li {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  background-color: var(--CVsecondary);
+  color: var(--whitish);
+  display: none;
+}
+.headerList li:hover {
+  background-color: var(--CVprimaryAlt);
+}
+.headerList .displayed {
+  display: inline;
+}
+.headerList li a {
+  text-decoration: none;
+  color: var(--whitish);
+  padding: 0.5rem 8rem 0.5rem 0;
+}
+
+@media only screen and (min-width: 801px) {
+  .headerButton {
+    min-width: 280px;
+    padding: 0.46rem 1rem;
+  }
+  .headerList {
+    width: 50%;
+    min-width: 280px;
+  }
+}

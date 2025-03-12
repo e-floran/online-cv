@@ -1,0 +1,75 @@
+.projectsContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0;
+}
+.project {
+  border: 0.2rem solid var(--whitish);
+  padding: 0.5rem;
+  margin: 0 0 1.5rem 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0;
+  grid-auto-rows: max-content;
+}
+.projectTitle {
+  width: 100%;
+  text-align: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.projectDate {
+  width: 100%;
+  margin: 0.25rem 0 0.5rem 0;
+  color: var(--whitish);
+  font-size: 0.75rem;
+  text-align: center;
+}
+.projectTitle a {
+  text-decoration: none;
+  color: var(--CVprimaryAlt);
+}
+.projectTitle a:hover {
+  color: var(--CVsecondary);
+}
+.projectImage {
+  width: 100%;
+}
+.mobileImage {
+  max-height: 300px;
+  object-fit: contain;
+}
+.project > p > a {
+  font-family: "Squada One", cursive;
+  text-decoration: none;
+  color: var(--CVprimaryAlt);
+}
+.project > p > a:hover {
+  color: var(--CVsecondary);
+}
+.technoContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+.techno {
+  height: 1.25rem;
+  background-color: var(--CVsecondary);
+  color: var(--blackish);
+  text-align: center !important;
+  padding: 0.1rem 0;
+}
+@media only screen and (min-width: 801px) {
+  .projectsContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+  }
+  .expPage {
+    grid-template-areas: "." "." "." "formContainer" !important;
+  }
+}

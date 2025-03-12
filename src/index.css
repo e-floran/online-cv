@@ -1,0 +1,19 @@
+:root {
+  --CVprimary: #11005e;
+  --CVprimaryAlt: #2900de;
+  --CVsecondary: #fa672b;
+  --whitish: #f4f4ff;
+  --blackish: #000114;
+  font-size: 14px;
+  background-color: var(--CVprimary);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 801px) {
+  :root {
+    font-size: 20px;
+  }
+}
