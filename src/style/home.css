@@ -1,13 +1,3 @@
-.pageContainer {
-  width: 100%;
-  position: absolute;
-  top: 8rem;
-  padding: 0 1rem;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-gap: 0;
-}
-
 h3,
 p,
 h5,
@@ -94,13 +84,13 @@ p:nth-of-type(odd) {
     box-shadow: 0 0 0 0 rgba(123, 226, 230, 0);
   }
 }
-.formContainer {
+/* .formContainer {
   width: 100%;
   margin: 0 0 1.5rem 0;
   display: grid;
   grid-template-columns: 100%;
   grid-gap: 0;
-}
+} */
 #homeForm {
   display: none;
   display: grid;
@@ -148,8 +138,20 @@ input {
 #linkedinLink {
   grid-area: linkedin;
 }
+#linkedinLink > img {
+  content: url("/files/linkedin_whitish.png");
+}
+#linkedinLink > img:hover {
+  content: url("/files/linkedin_lightBlue.png");
+}
 #githubLink {
   grid-area: github;
+}
+#githubLink > img {
+  content: url("/files/github_whitish.png");
+}
+#githubLink > img:hover {
+  content: url("/files/github_lightBlue.png");
 }
 @media only screen and (min-width: 801px) {
   .homePage {
