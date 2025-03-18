@@ -6,6 +6,16 @@ const experienceData = [
     title: "Expériences professionnelles",
     items: [
       {
+        title: "We Cheers",
+        isInProgress: true,
+        placeAndTime: "télétravail (Montpellier), depuis 2025",
+        href: "https://wecheers.fr/",
+        texts: [
+          "Cette expérience en start-up me permet de participer à la première phase de forte croissance d'une application prometteuse.",
+        ],
+        technos: ["React Native", "PHP", "Symfony"],
+      },
+      {
         title: "Polyconseil",
         isInProgress: false,
         placeAndTime: "télétravail (Paris), 2022 - 2024",
