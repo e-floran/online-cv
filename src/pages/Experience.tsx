@@ -113,6 +113,17 @@ const experienceData = [
         href: "https://espn-fantasy-nba-helper.netlify.app/",
       },
       {
+        title: "Association Pour Guillaume",
+        isInProgress: true,
+        placeAndTime: "depuis septembre 2024",
+        texts: [
+          "Site d'une association caritative qui vise à récolter des fonds pour la recherche contre le cancer.",
+        ],
+        technos: ["React", "MUI"],
+        picture: "/files/guillaume.png",
+        href: "https://www.guillaumevincent.fr/",
+      },
+      {
         title: "Foulpougne festival",
         isInProgress: false,
         placeAndTime: "décembre 2020 - septembre 2024",
