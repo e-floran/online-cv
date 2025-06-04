@@ -6,12 +6,22 @@ const experienceData = [
     title: "Expériences professionnelles",
     items: [
       {
+        title: "Salsa",
+        isInProgress: true,
+        placeAndTime: "Périgueux, depuis 2025",
+        href: "",
+        texts: [
+          "Avec plusieurs sites de e-commerces à gérer en parrallèle, cette opportunité renforce ma capacité à jongler entre plusieurs projets.",
+        ],
+        technos: ["PHP"],
+      },
+      {
         title: "We Cheers",
         isInProgress: true,
         placeAndTime: "télétravail (Montpellier), depuis 2025",
         href: "https://wecheers.fr/",
         texts: [
-          "Cette expérience en start-up me permet de participer à la première phase de forte croissance d'une application prometteuse.",
+          "Travailler en start-up me permet de participer à la première phase de forte croissance d'une application prometteuse.",
         ],
         technos: ["React Native", "PHP", "Symfony"],
       },
