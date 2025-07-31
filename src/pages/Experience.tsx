@@ -17,8 +17,8 @@ const experienceData = [
       },
       {
         title: "We Cheers",
-        isInProgress: true,
-        placeAndTime: "télétravail (Montpellier), depuis 2025",
+        isInProgress: false,
+        placeAndTime: "télétravail (Montpellier), 2025",
         href: "https://wecheers.fr/",
         texts: [
           "Travailler en start-up me permet de participer à la première phase de forte croissance d'une application prometteuse.",
@@ -111,6 +111,17 @@ const experienceData = [
   {
     title: "Projets",
     items: [
+      {
+        title: "Projet NT scout",
+        isInProgress: true,
+        placeAndTime: "depuis juillet 2025",
+        texts: [
+          "Cet outil permet aux utilisateurs du jeu de management Buzzerbeater de préparer les matchs d'équipes nationales. Une API tierce est consommée et les données sont ordonnées pour gagner en efficacité. Un algorithme d'aide stratégique est également proposé.",
+        ],
+        technos: ["Next.js", "Typescript"],
+        picture: "/files/ntscout.png",
+        href: "https://bb-ntscout.netlify.app/",
+      },
       {
         title: "Fantasy league helper",
         isInProgress: true,
