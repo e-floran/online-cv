@@ -13,7 +13,7 @@ const experienceData = [
         texts: [
           "Avec plusieurs sites de e-commerces à gérer en parrallèle, cette opportunité renforce ma capacité à jongler entre plusieurs projets.",
         ],
-        technos: ["PHP", "jQuery"],
+        technos: ["PHP", "Angular", "jQuery"],
       },
       {
         title: "We Cheers",

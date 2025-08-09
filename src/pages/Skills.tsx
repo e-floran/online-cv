@@ -2,7 +2,7 @@ import "../style/skills.css";
 import { SkillsCategory } from "../components/skills/SkillsCategory";
 const skillsData = [
   {
-    title: "Langages",
+    title: "Langages et standards",
     skills: [
       "Français",
       "Anglais",
@@ -13,6 +13,8 @@ const skillsData = [
       "SQL",
       "PHP",
       "Python",
+      "REST",
+      "GraphQL",
     ],
   },
   {
@@ -22,11 +24,11 @@ const skillsData = [
       "React Native",
       "Next.js",
       "Vue.js",
+      "Angular",
       "Node.js",
       "Express",
       "PostgreSQL",
       "MySQL",
-      "GraphQL",
       "TypeORM",
       "jQuery",
       "MUI",
@@ -51,6 +53,7 @@ const skillsData = [
       "Git",
       "GitHub",
       "GitLab",
+      "Jira",
       "VS code",
       "Bureautique",
       "CMS, montage",

@@ -3,7 +3,10 @@ import { TextSection } from "../components/generic/TextSection";
 const educationData = [
   {
     title: "Développement",
-    texts: ["Développeur web, Wild code school, campus remote, 2020-2021"],
+    texts: [
+      "Développeur web, Wild code school, campus remote, 2020-2021",
+      "Titre professionnel Développeur web et web mobile, 2021",
+    ],
   },
   {
     title: "Journalisme et Économie",
